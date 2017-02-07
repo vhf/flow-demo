@@ -189,6 +189,11 @@ myList.add({
 
 myList.forEach((node) => console.log(JSON.stringify(node)))
 
+const nodes = []
+for (const node of myList.nodes()) {
+  nodes.push(node)
+}
+
 
 /***/ })
 /******/ ]);
