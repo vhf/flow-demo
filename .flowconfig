@@ -1,0 +1,9 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/remove-flow-types-loader/test/source\.js
+
+[include]
+src
+
+[libs]
+
+[options]
