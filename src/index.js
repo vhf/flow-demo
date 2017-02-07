@@ -1,4 +1,3 @@
-// @flow
 const List = require('./lib/linkedlist')
 
 const myList = new List()
