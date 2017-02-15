@@ -8,6 +8,11 @@ myList.add({
   payload: [1, 2, 3]
 })
 
+myList.add({
+  name: 'first',
+  payload: [1, '2', 3]
+})
+
 myList.forEach((node) => console.log(JSON.stringify(node)))
 
 const nodes = []

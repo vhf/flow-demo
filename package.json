@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "webpack --display-error-details --config webpack/config.js",
-    "run": "node bin/app.bundle.js"
+    "run": "node src/index.js"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
